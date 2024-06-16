@@ -10,6 +10,8 @@ const upload =multer()
 
 const app = express();
 
+
+
 // CORS configuration
 app.options('*', cors());
 app.use(cors());
